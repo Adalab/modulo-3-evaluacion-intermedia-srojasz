@@ -1,0 +1,2 @@
+html{margin:0;padding:0;font-family:Helvetica}ul{list-style:none}.container{border:1 solid red}.main-title{text-align:center}.pokemon-list{display:flex;flex-wrap:wrap}.pokemon-card{width:150px;display:flex;flex-direction:column;justify-content:flex-start;align-items:center;margin:20px;background-color:#7fffd4;border-radius:10%}.pokemon-name{font-size:20px;text-transform:capitalize}.pokemon-types{text-transform:capitalize;-webkit-padding-start:0;padding-inline-start:0;padding-bottom:20px}
+/*# sourceMappingURL=main.8759cf7f.chunk.css.map */
