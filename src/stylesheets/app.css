@@ -32,6 +32,13 @@ ul {
   border-radius: 10%;
 }
 
+.pokemon-name {
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
 .pokemon-types {
+  text-transform: capitalize;
   padding-inline-start: 0px;
+  padding-bottom: 20px;
 }

@@ -11,7 +11,7 @@ function Pokemon(props) {
     <React.Fragment>
       <li className="pokemon-card">
         <img src={img} alt={name} />
-        <h2>{name}</h2>
+        <h2 class="pokemon-name">{name}</h2>
         <ul className="pokemon-types">
 
           {types.map((type, key) => {
