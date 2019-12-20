@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 function Pokemon(props) {
 
   const img = props.pokemon.url;
@@ -8,10 +9,11 @@ function Pokemon(props) {
 
   return (
     <React.Fragment>
-      <li>
-        <img src={img}></img>
+      <li className="pokemon-card">
+        <img src={img} alt={name} />
         <h2>{name}</h2>
-        <ul>
+        <ul className="pokemon-types">
+
           {types.map((type, key) => {
             return <li
               key={key}

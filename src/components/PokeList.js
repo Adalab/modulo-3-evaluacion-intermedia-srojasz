@@ -3,7 +3,7 @@ import React from 'react';
 
 function PokeList(props) {
   return <div>
-    <ul className="pokemon__list">
+    <ul className="pokemon-list">
       {props.children}
     </ul>
   </div>
